@@ -40,7 +40,7 @@ h1 {
 }
 
 h2 {
-  color: #2b2b2b;
+  color: #0B3861;
   font-size: 35px;
   line-height: 52px;
   margin-top: 0px;
@@ -60,11 +60,11 @@ h4 {
 }
 
 p {
-  color: #878787;
-  font-size: 16px;
-  font-weight: normal;
+  color: #585858;
+  font-size: 17px;
+  font-weight: bold;
   line-height: 25px;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.3px;
 }
 
 .bg-grey {
