@@ -261,11 +261,14 @@ a:hover, a:active, a:focus {
 /*---------------------------------------
   Service section              
 -----------------------------------------*/
+#service h2 {
+	
+}
 
 .service-thumb {
   background: #ffffff;
   border-radius: 5px;
-  padding: 42px 22px;
+  padding: 40px 22px;
   cursor: crosshair;
   position: relative;
   top: 0;
@@ -329,6 +332,10 @@ a:hover, a:active, a:focus {
 }
 
 .about-thumb h2 {align-content: center;}
+
+.about-thumb h3 {
+	padding-bottom: 30px;
+}
 
 /*---------------------------------------
   Work section              
@@ -428,8 +435,14 @@ footer p {
   padding-top: 10px;
 }
 
-#mini {
-	font-size: 40px;
+.mini {
+	font-size: 12px;
+	color:#B9B9B9;
+}
+.mini p {
+	font-size: 16px;
+	color:#B9B9B9;
+	padding-top: -20px;
 }
 
 /*---------------------------------------
