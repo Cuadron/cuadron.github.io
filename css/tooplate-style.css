@@ -1,15 +1,13 @@
 /*
 
-Template 2087 Kalay
-
-http://www.tooplate.com/view/2087-kalay
+Template 2087 Kalay redesign by loneb0y
 
 */
 
 @import url('https://fonts.googleapis.com/css?family=Jura&display=swap');
 
 body {
-    background: #00000;
+    background:#303136;
     font-family: 'Jura', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -172,8 +170,8 @@ a:hover, a:active, a:focus {
 #service, #about, #work,
 #contact, footer {
   position: relative;
-  padding-top: 20px;
-  padding-bottom: 70px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 #service, #work {
@@ -267,7 +265,7 @@ a:hover, a:active, a:focus {
 .service-thumb {
   background: #ffffff;
   border-radius: 5px;
-  padding: 22px 22px;
+  padding: 42px 22px;
   cursor: crosshair;
   position: relative;
   top: 0;
@@ -308,7 +306,9 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #about {
-  padding-top: 100px;
+  padding-top: 50px;
+	align-content: center;
+	background: #FFFFFF;
 }
 
 .about-image-thumb img {
@@ -321,7 +321,7 @@ a:hover, a:active, a:focus {
 }
 
 .about-thumb {
-  padding: 32px 12px;
+  padding: 20px 12px;
 }
 
 .about-thumb p {
@@ -428,7 +428,9 @@ footer p {
   padding-top: 10px;
 }
 
-
+#mini {
+	font-size: 40px;
+}
 
 /*---------------------------------------
   Social icon             
@@ -445,7 +447,7 @@ footer p {
   }
 
   .service-thumb {
-    margin-top: 12px;
+    margin-top: 22px;
     margin-bottom: 22px;
   }
 
