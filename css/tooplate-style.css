@@ -63,6 +63,13 @@ p {
   line-height: 25px;
   letter-spacing: 0.2px;
 }
+p1 {
+  color: #878787;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+}
 p2 {
   color:#2B2C2F;
   font-size: 19px;
@@ -181,9 +188,20 @@ a:hover, a:active, a:focus {
 
 #donate{
   position: relative;
-  padding-top: 60px;
-  padding-bottom: 70px;
+  padding-top: 20px;
+  padding-bottom: 250px;
   background-color:#FAFAFB;
+  
+}
+
+#donate p {
+	padding-top: 100px;
+}
+
+.donate h3 {
+	padding-bottom: 60px;
+	padding-top: 20px;
+	
 }
 /*---------------------------------------
   Pre loader section              
@@ -442,7 +460,12 @@ footer p {
 .mini p {
 	font-size: 16px;
 	color:#B9B9B9;
-	padding-top: -20px;
+	padding-top: 0px;
+}
+.mini p1 {
+	font-size: 16px;
+	color:#B9B9B9;
+	padding-top: 0px;
 }
 
 /*---------------------------------------
